@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table,
+tr,
+td {
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+}
+
+body {
+  width: 100vw;
+  padding: 20px;
+}
+
+table {
+  margin-top: 20px;
+  width: 95vw;
+  margin: 10px;
+  margin-left: 0;
+}
+
+tr {
+  height: 40px;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: lightgray;
+}
+
+td {
+  text-align: center;
+}
+
+.delete {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.update {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.addStudent {
+  padding: 5px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.disableForm {
+  display: none;
+}
+
+.enableForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+label {
+  width: 150px;
+  text-align: right;
+}
+
+input,
+select {
+  width: 250px;
+  height: 30px;
+  padding-left: 10px;
+}
+
+.table {
+  display: table;
+}
+.disableTable {
+  display: none;
+}
+
+#submit {
+  border: none;
+  background-color: blue;
+  color: white;
+  width: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: rgb(96, 96, 224);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.disableSearchContainer {
+  display: none;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.searchBtn {
+  height: 30px;
+  width: 80px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.searchBtn:hover {
+  background-color: rgb(96, 96, 224);
+}
